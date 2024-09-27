@@ -1,0 +1,111 @@
+:root {
+    --main-bg-color: #5f311f;
+    --hover-bg-color: #fdedec;
+    --hover-text-color: #d98880;
+    --button-bg-color: #d6eaf8;
+    --button-text-color: #7fb3d5;
+}
+
+#pag1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('img/fondo.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+#btnJugar {
+    padding: 20px 80px;
+    font-size: 16px;
+    background-color: var(--main-bg-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 350px;
+    margin-right: 450px;
+    width: 15%;
+    max-width: 300px; 
+    box-sizing: border-box;
+}
+
+.barra {
+    background: url(img/img2.jpg);
+    display: flex;
+    padding: 0; 
+    margin: 0; 
+    height: 90px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    text-align: center; 
+}
+
+h1 {
+    font-family: cursive;
+}
+
+span {
+    font-size: 30px;
+}
+
+button:hover {
+    transform: scale(1.1) rotate(-2deg);
+    background-color: var(--hover-bg-color); 
+    color: var(--hover-text-color);
+}
+
+.button1, #btnJugar {
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.2s, background-color 0.3s;
+}
+.button1:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.button1 {
+    margin-top: 10px;
+    margin-right: 4px;
+    height: 150px;
+    width: 217px;
+    font-size: 40px;
+    font-family: cursive;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+}
+#preguntaModalLabel{
+    font-size: 30px;
+    font-family: cursive;
+}
+#pregunta{
+    font-size: 25px;
+    font-family: cursive;
+}
+.opciones{
+    width: 200px;
+}
+.custom-button{
+    width: 300px;
+    height: 70px;
+    font-family: cursive;
+    
+}
+.contenedor {
+    display: flex;          
+    flex-wrap: wrap;         
+    justify-content: center;   
+    align-items: center;      
+}
