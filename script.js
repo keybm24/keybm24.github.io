@@ -101,8 +101,8 @@ const preguntas = [
     },
     { //20
         pregunta: "¿Cuántos libros tiene el Antiguo Testamento?",
-        opciones: ["47", "46", "66", "73"],
-        respuestaCorrecta: "46"
+        opciones: ["47", "39", "66", "73"],
+        respuestaCorrecta: "39"
     },
     { //21
         pregunta: "¿Quien acompaño a Pablo en su primer viaje misionero?",
